@@ -4,7 +4,7 @@ services:
     build: /app
     ports:
       - "8181:3000"
-    env:
+    environment:
       - DB_NAME=training
       - DB_HOST=172.23.5.12
       - DB_USER=peserta
