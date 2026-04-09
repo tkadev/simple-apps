@@ -1,7 +1,8 @@
 services:
   simple-apps:
     container_name: ct-simpleapps
-    build: /app
+    #build: /app
+    image: tkadev/simpleapps
     ports:
       - "8181:3000"
     environment:
